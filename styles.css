@@ -46,10 +46,10 @@ body {
   display: flex;
   flex-wrap: wrap;            /* Laat items naar de volgende rij gaan als er niet genoeg ruimte is */
   flex-direction: column;        /* Plaats items horizontaal (standaard) */
-  justify-content: space-around; /* Verspreid de items gelijkmatig over de container */
+  justify-content: left; /* Verspreid de items gelijkmatig over de container */
   align-items: flex-start;    /* Begin de items bovenaan uit te lijnen */
-  height: 40vh;
-  margin-left: 100px;
+  height: 90vh;
+  margin-left: 200px;
   background-color: white;
 }
 
