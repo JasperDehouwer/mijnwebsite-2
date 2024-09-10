@@ -35,6 +35,12 @@ body {
     padding: 20px;
     text-align: center;
   }
+
+  lefty {
+    padding: 20px;
+    text-align: left;
+    margin-left: 25px;
+  }
   
   footer {
     background-color: #333;
