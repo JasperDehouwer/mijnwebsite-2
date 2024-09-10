@@ -48,7 +48,7 @@ body {
   flex-direction: column;        /* Plaats items horizontaal (standaard) */
   justify-content: space-around; /* Verspreid de items gelijkmatig over de container */
   align-items: flex-start;    /* Begin de items bovenaan uit te lijnen */
-  height: 10vh;
+  height: 40vh;
   margin-left: 100px;
   background-color: white;
 }
