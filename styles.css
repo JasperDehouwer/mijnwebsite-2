@@ -37,8 +37,32 @@ body {
   }
 
   Lefty {
-    margin-left: 20px;
+    padding-left: 20px;
   }
+
+
+  /* Flex-container */
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;            /* Laat items naar de volgende rij gaan als er niet genoeg ruimte is */
+  flex-direction: row;        /* Plaats items horizontaal (standaard) */
+  justify-content: space-around; /* Verspreid de items gelijkmatig over de container */
+  align-items: flex-start;    /* Begin de items bovenaan uit te lijnen */
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+/* Flex-items */
+.flex-item {
+  background-color: #4CAF50;
+  padding: 20px;
+  margin: 10px;
+  color: white;
+  font-size: 24px;
+  text-align: center;
+  flex-basis: 30%;            /* Elk item neemt ongeveer 30% van de rij in beslag */
+  flex-grow: 1;               /* Laat items groeien om beschikbare ruimte te gebruiken */
+}
   
   footer {
     background-color: #333;
