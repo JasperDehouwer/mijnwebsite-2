@@ -37,9 +37,8 @@ body {
   }
 
   Lefty {
-    padding: 20px;
-    text-align: center;
-    padding-left: 30px;
+    text-align: left;
+    padding-right: 30px;
   }
   
   footer {
