@@ -47,9 +47,9 @@ body {
   flex-wrap: wrap;            /* Laat items naar de volgende rij gaan als er niet genoeg ruimte is */
   flex-direction: column;        /* Plaats items horizontaal (standaard) */
   justify-content: left; /* Verspreid de items gelijkmatig over de container */
-  align-items: flex-start;    /* Begin de items bovenaan uit te lijnen */
-  height: 90vh;
-  margin-left: 200px;
+  align-items: normal;    /* Begin de items bovenaan uit te lijnen */
+  height: 100vh;
+  margin-left: 10px;
   background-color: white;
 }
 
