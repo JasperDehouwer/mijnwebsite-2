@@ -5,7 +5,7 @@ body {
   }
   
   header {
-    background-color: #333;
+    background-color: #539137;
     padding: 10px 0;
   }
   
@@ -28,7 +28,7 @@ body {
   }
   
   nav ul li a:hover {
-    background-color: #539137;
+    background-color: #333;
   }
   
   main {
